@@ -128,6 +128,7 @@ class DataReader(object):
 
         """
         self.from_recv_buffer()
+        print "bla"
         while self.recv_piece():
             pass
         return self.return_all()
